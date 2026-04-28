@@ -14,7 +14,9 @@ class QuizApp extends StatelessWidget {
       child: MaterialApp.router(
         routerConfig: appRouter,
         title: 'Quiz project',
-        theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        ),
       ),
     );
   }
