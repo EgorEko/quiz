@@ -8,7 +8,7 @@ const List<Question> staticQuestions = [
     text:
         'Which method is called only once during the entire lifecycle of the State widget?',
     options: ['build()', 'didUpdateWidget()', 'initState()', 'setState()'],
-    correctAnswerIndex: 2, // initState()
+    correctAnswerIndex: 2,
   ),
   Question(
     text: 'Is Flutter an open source framework?',

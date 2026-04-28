@@ -15,10 +15,15 @@ class QuizHistoryLoaded extends QuizState {
 class QuizNoHistory extends QuizState {}
 
 class QuizInProgress extends QuizState {
-  const QuizInProgress(this.currentQuestionIndex, this.currentScore);
+  const QuizInProgress(
+    this.currentQuestionIndex,
+    this.currentScore,
+    this.questions,
+  );
 
   final int currentQuestionIndex;
   final int currentScore;
+  final List<Question> questions;
 }
 
 class QuizFinished extends QuizState {

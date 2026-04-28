@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../../core/common/blocs/quiz_cubit.dart';
+import '../../../../core/domain/entities/question.dart';
 import '../../../../core/router/app_routes.dart';
-import '../../domain/entities/question.dart';
-import '../blocs/quiz_cubit.dart';
 
 class QuizScreen extends StatelessWidget {
   const QuizScreen({super.key});
